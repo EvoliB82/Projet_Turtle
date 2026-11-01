@@ -176,7 +176,7 @@ def balcon_dessin(x : int, y : int) -> None:
 
 
 # REZ-DE-CHAUSSEE
-def etage0(couleur="lightgray" : str) -> None:
+def etage0(couleur : str ="lightgray" ) -> None:
     """
     On trace les rez-de-chaussée, avec la couleur lightgray par défaut
     """
@@ -185,7 +185,7 @@ def etage0(couleur="lightgray" : str) -> None:
 
 
 # PORTE
-def porte(couleur_porte="brown" : str) -> None:
+def porte(couleur_porte : str ="brown") -> None:
     """
     On trace la porte, avec la couleur brown par défaut
     """
@@ -193,7 +193,7 @@ def porte(couleur_porte="brown" : str) -> None:
 
 
 # ETAGES
-def etage_X(num_etage : int, couleur="lightgray" : str) ->None:
+def etage_X(num_etage : int, couleur : str ="lightgray") -> None:
     """
     Trace l'étage X, avec lightgray comme couleur par défaut
     """
@@ -205,7 +205,7 @@ def etage_X(num_etage : int, couleur="lightgray" : str) ->None:
 
 
 # TOITS
-def toit_plat(nb_etages : int, couleur="darkgray" : str) -> None:
+def toit_plat(nb_etages : int, couleur : str ="darkgray") -> None:
     """
     On trace un toit plat, avec la couleur darkgray par défaut
     """
@@ -220,7 +220,7 @@ def toit_plat(nb_etages : int, couleur="darkgray" : str) -> None:
     turtle.pensize(1)
 
 
-def toit_adc(nb_etages: int, couleur="red" : str) -> None:
+def toit_adc(nb_etages: int, couleur : str ="red") -> None:
     """
     On trace un toit arc de cercle avec comme couleur par défaut red
     """
@@ -240,7 +240,7 @@ def toit_adc(nb_etages: int, couleur="red" : str) -> None:
     turtle.pensize(1)
 
 
-def toit_triangle(nb_etages : int, couleur="red" : str) -> None:
+def toit_triangle(nb_etages : int, couleur : str ="red") -> None:
     """
     On trace un toit triangle avec la couleur red par défaut
     """
